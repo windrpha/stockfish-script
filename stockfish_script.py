@@ -1,6 +1,6 @@
 import chess.engine
 
-engine = chess.engine.SimpleEngine.popen_uci("stockfish")
+engine = chess.engine.SimpleEngine.popen_uci("/usr/local/bin/stockfish")
 
 board = chess.Board()
 
