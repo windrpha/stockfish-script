@@ -1,8 +1,7 @@
 FROM python:3.9
 
 # Install any necessary dependencies
-RUN pip install python-chess \
-    docker
+RUN pip install python-chess
 
 # Copy the Python script into the Docker image
 COPY stockfish_script.py /app/
